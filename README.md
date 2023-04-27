@@ -1,11 +1,11 @@
 git commit -am "Segundo commit"
-
 git log --oneline
 
 
-git push origin --tags
 
+# Tags
 git tag 27-04v1 -m "Version 1 del proyecto"
+<<<<<<< HEAD
 
 
 ## Branches
@@ -13,3 +13,14 @@ git tag 27-04v1 -m "Version 1 del proyecto"
 ❯ git branch rama_1
 ❯ git branch
 ❯ git checkout rama_1
+=======
+git push origin --tags
+
+
+# Branches
+❯ git branch rama_1
+❯ git branch
+❯ git checkout rama_1
+
+
+>>>>>>> rama_1
